@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Membuat Button Bootstrap</title>
+  
+    <!-- dibawah sini CSS Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- dibawah sini CSS kamu, contoh <link href="MyStyle.css" rel="stylesheet">-->
+      
+    <!-- JS untuk IE -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+ 
+ 
+  <!-- Content START -->
+ <h1>Tab Mudah dengan Bootstrap</h1>
+<!-- Nav tabs, ini tombol tab di atas -->
+<ul class="nav nav-tabs">
+<!-- Untuk Semua Tab.. pastikan a href=”#nama_id” sama dengan nama id di “Tap Pane” dibawah-->
+  <li class="active"><a href="#home" data-toggle="tab">Home</a></li> <!-- Untuk Tab pertama berikan li class=”active” agar pertama kali halaman di load tab langsung active-->
+  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+  <li><a href="#messages" data-toggle="tab">Messages</a></li>
+  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+</ul>
+<!-- Tab panes, ini content dari tab di atas -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home">Selamat datang</div><!-- Untuk Tab pertama berikan div class=”active” agar pertama kali halaman di load content langsung active-->
+  <div class="tab-pane" id="profile">Profil saya</div>
+  <div class="tab-pane" id="messages">Sangat Mudah membuat Tap dengan Bootstrap<img src="/img/emoticon/smile.gif"></div>
+  <div class="tab-pane" id="settings">Setting di sini..</div>
+</div>
+ 
+ 
+ <!-- Content END -->
+ 
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
